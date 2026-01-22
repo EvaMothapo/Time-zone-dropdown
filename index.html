@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <source src="src/style.css" type="">
+    <source src="src/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data.min.js"></script>
     <title>Time zone dropdown</title>
 </head>
+
 <body>
-  <script src="src/app.js"></script>  
-</body>
+
+    <body>
+        <h1>Select a city</h1>
+
+        <select id="city-select">
+            <option value=""> Select a city </option>
+            <option value="Europe/Paris">Paris 🇫🇷</option>
+            <option value="Asia/Tokyo">Tokyo 🇯🇵</option>
+            <option value="Australia/Sydney">Sydney 🇦🇺</option>
+        </select>
+        <script src="src/app.js"></script>
+    </body>
+
 </html>
